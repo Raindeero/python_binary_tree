@@ -100,6 +100,7 @@ def del_tree(root):
 def del_node_by_data(root, value):
     '''
     Find and delete (sub-tree)/list/(whole tree) by value
+    Important, that function will delete node(parent) with children, not only parent
     :param root:
     :param value:
     :return:
